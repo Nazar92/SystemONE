@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+  <!-- my style -->
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="topHeader">
+      <div class="contentContainer">
+        <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="topHeaderLeft col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <p class="email">E-mail: test@gmail.com</p>
+            <p class="phone">Tel: +380-92-29-243</p>
+          </div>
+          <div class="topHeaderRight col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <ul class="topHeaderRightList">
+              <li><a target="_blank" href="https://www.facebook.com/"><i class="HeaderRightItem fa fa-facebook"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/"><i class="HeaderRightItem fa fa-twitter"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/"><i class="HeaderRightItem fa fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://plus.google.com"><i class="HeaderRightItem fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menuHeader">
+      <div class="contentContainer">
+        <div class="row menuContainer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="logo col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <a href="index.html" class="logoLink">
+              <img src="img/Logo.PNG" class="logoIMG" alt="Logo">
+            </a>
+          </div>
+          <ul class="menuList col-lg-7 col-md-7 col-sm-7 col-xs-7">
+            <li class="menuItem"><a href="#aboutUS">ABOUT US</a></li>
+            <li class="menuItem"><a href="#services">OUR SERVICES</a></li>
+            <li class="menuItem"><a href="#advantages">ADVANTAGES</a></li>
+            <li class="menuItem"><a href="#reviews">REVIEWS</a></li>
+            <li class="menuItem"><a href="#contacts">CONTACTS</a></li>
+          </ul>
+          <button  class="openMenu" id="openMenu" onclick="openMenu()">Menu</button>
+        </div>
+      </div>
+    </div>
+    <!-- response menu -->
+    <div class="responseMenu" id="headerMenu">
+      <button class="close" onclick="closeMenu()">close</button>
+
+      <ul class="responseList col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+        <li class="menuItem"><a href="#aboutUS">ABOUT US</a></li>
+        <li class="menuItem"><a href="#services">OUR SERVICES</a></li>
+        <li class="menuItem"><a href="#advantages">ADVANTAGES</a></li>
+        <li class="menuItem"><a href="#reviews">REVIEWS</a></li>
+        <li class="menuItem"><a href="#contacts">CONTACTS</a></li>
+      </ul>
+      <ul class="topHeaderRightList">
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="HeaderRightItem fa fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/"><i class="HeaderRightItem fa fa-twitter"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/"><i class="HeaderRightItem fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://plus.google.com"><i class="HeaderRightItem fa fa-google-plus"></i></a></li>
+      </ul>
+    </div>
+    <div class="bottomHeader">
+      <h1 class="headerTitle">
+        We help you to<br> grow your business</h1>
+    </div>    
+
+<!-- About US -->
+
+    <div class="aboutUs" id="aboutUS">
+      <div class="contentContainer">
+      <h2 class="aboutUsTitle">ABOUT US</h2>
+      <p class="underAboutUsTitle">Lorem ipsum dolor sit amet event landing template</p>
+        <div class="row">
+          <div class="aboutUsImgSection col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="lightSquare">
+              <img class="lightSquareIMG" src="img/Image.png" alt="img">
+            </div>
+          </div>
+          <div class="aboutUsDescription col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h3 class="aboutUsDescTitle">We Actually Do amazing works</h3>
+            <p class="aboutUsDesc">Our company provides services in the field of design, implementation and maintenance of high-availability IT-infrastructure, provides operational support for the development of IT products and provides information security for businesses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Services -->
+
+    <div class="ourServices" id="services">
+      <div class="contentContainer">
+        <div class="row">
+          <h2 class="ourServicesTitle">OUR SERVICES</h2>
+          <p class="underOurServicesTitle">Lorem ipsum dolor sit amet event landing template</p>
+          <ul class="ourServicesList col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <li class="ourServicesItem col-lg-4 col-md-4 col-sm-6 col-xs-6">
+              <img src="img/icons8-жесткий-диск-50.png" alt="hdd">
+              <h3 class="itemTitle">Migration</h3>
+              <p class="itemDescription">Migration to the cloud of local office servers</p>
+            </li>
+            <li class="ourServicesItem col-lg-4 col-md-4 col-sm-6 col-xs-6">
+              <img src="img/icons8-поддержка-50.png" alt="hdd">
+              <h3 class="itemTitle">Support</h3>
+              <p class="itemDescription">Support for cloud and virtualized environments</p>
+            </li>
+            <li class="ourServicesItem col-lg-4 col-md-4 col-sm-6 col-xs-6">
+              <img src="img/icons8-робот-50.png" alt="hdd">
+              <h3 class="itemTitle">Automation</h3>
+              <p class="itemDescription">Automation of premises management</p>
+            </li>
+            <li class="ourServicesItem col-lg-4 col-md-4 col-sm-6 col-xs-6">
+              <img src="img/icons8-безопасность-проверена-50.png" alt="hdd">
+              <h3 class="itemTitle">Security</h3>
+              <p class="itemDescription">Security audit and implementation of security management tools</p>
+            </li>
+            <li class="ourServicesItem col-lg-4 col-md-4 col-sm-6 col-xs-6">
+              <img src="img/icons8-разработчик-50.png" alt="hdd">
+              <h3 class="itemTitle">Develop</h3>
+              <p class="itemDescription">Development of IT products in various spheres</p>
+            </li>
+            <li class="ourServicesItem col-lg-4 col-md-4 col-sm-6 col-xs-6">
+              <img src="img/icons8-горизонтальный-микшер-настроек-50.png" alt="hdd">
+              <h3 class="itemTitle">Set up</h3>
+              <p class="itemDescription">Set up devops tools and implement devop practices</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!-- Advantages -->
+
+    <div class="advantages" id="advantages">
+      <div class="contentContainer">
+        <h2 class="advantagesTitle">ADVANTAGES</h2>
+        <p class="underAdvantagesTitle">The company provides services in the field of design, implementation and maintenance</p>
+        <ul class="advantagesList">
+          <li class="advantagesItem">- we set high levels and achieve results;</li>
+          <li class="advantagesItem">- we find innovative solutions to topical issues;</li>
+          <li class="advantagesItem">- we are always on the move with time;</li>
+          <li class="advantagesItem">- we are looking into the future;</li>
+          <li class="advantagesItem">- we strive to provide our customers with modern technology</li>
+        </ul>
+      </div>
+    </div>
+
+<!-- Reviwes -->
+
+    <div class="reviews" id="reviews">
+      <div class="contentContainer">
+        <div class="row">
+          <h2 class="reviewsTitle">REWIEWS</h2>
+          <p class="underRewiwesTitle">The company provides services in the field of design, implementation and maintenance</p> 
+          <div class="slider">
+            <div class="item">
+              <div class="leftSection col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="leftLightSquare ">
+                  <img class="leftSectionIMG" src="img/team_1.png" alt="img">
+                </div>
+              </div>
+              <div class="rightSection col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <div class="rightSectionContent">
+                  <h3 class="rightSectionTitle">AL RAYHAN(1)</h3>
+                  <p class="rightSectionDesc">Lorem Ipsum is simply dummy text of the printing and you 
+                      standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="leftSection col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="leftLightSquare ">
+                  <img class="leftSectionIMG" src="img/team_1.png" alt="img">
+                </div>
+              </div>
+              <div class="rightSection col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <h3 class="rightSectionTitle">AL RAYHAN(2)</h3>
+                <p class="rightSectionDesc">Lorem Ipsum is simply dummy text of the printing and you 
+                      standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="leftSection col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="leftLightSquare">
+                <img class="leftSectionIMG" src="img/team_1.png" alt="img">
+              </div>
+              </div>
+              <div class="rightSection col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <h3 class="rightSectionTitle">AL RAYHAN(2)</h3>
+                <p class="rightSectionDesc">Lorem Ipsum is simply dummy text of the printing and you 
+                    standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="leftSection col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="leftLightSquare">
+                  <img class="leftSectionIMG" src="img/team_1.png" alt="img">
+                </div>
+              </div>
+              <div class="rightSection col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <h3 class="rightSectionTitle">AL RAYHAN(2)</h3>
+                <p class="rightSectionDesc">Lorem Ipsum is simply dummy text of the printing and you 
+                  standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div> 
+        </div>   
+      </div>
+    </div>
+    
+<!-- Contacts -->
+
+      <div class="contacts" id="contacts">
+        <div class="contentContainer">
+          <h2 class="contactsTitle">CONTACTS</h2>
+          <div class="row">
+            <div class="contactsLeft col-lg-7 col-md-7 col-sm-12 col-xs-12">
+              <form action="submit">
+                <label for="name">Name*</label>
+                  <input  type="text" class="name" name="name">
+                <label for="subject">Subject*</label>
+                  <input type="text" class="subject" name="subject">
+                <label for="email">Email*</label>
+                  <input type="email" class="email" name="email">
+                <label for="message">Message*</label>
+                  <textarea type="text" class="message" name="message"></textarea>
+                <button class="sendBTN">SEND MESSAGE</button>
+              </form>
+            </div>
+            <div class="contactsRight col-lg-5 col-md-5 col-sm-12 col-xs-12">
+              <div class="contactsRightContent">
+                <p>Adress line 1 <br>
+                   Adress line 2 <br>
+                   Phone: +548 945645 <br>
+                   Fax: +456456 54546 <br>
+                   <br>
+                   Web: www.designagency.net <br>
+                   E-mail: info@designagency.net
+                </p>
+                  <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26846.419676622787!2d25.57989880668278!3d49.56517215522192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47303154fe5234af%3A0xcd7426a9878e8684!2sMagneticOne!5e0!3m2!1suk!2sua!4v1544813302275" 
+                      width="100%" 
+                      height="250" 
+                      frameborder="0" 
+                      style="border:0" 
+                      allowfullscreen>
+                    </iframe>                    
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Footer -->
+
+      <div class="footer">
+        <h3 class="footerTitle">FOLLOW US</h3>
+        <div class="container">
+          <ul class="submenu">
+            <li><a target="_blank" href="https://www.facebook.com/"><i class="submenuItem fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/"><i class="submenuItem fa fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/"><i class="submenuItem fa fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://plus.google.com"><i class="submenuItem fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    
+    
+
+
+
+
+
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>  
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
